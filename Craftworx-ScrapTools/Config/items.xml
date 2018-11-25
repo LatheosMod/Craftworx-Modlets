@@ -1,0 +1,109 @@
+<configs>
+	<append xpath="/items">
+
+<!-- Scrap Iron Tools -->
+<item name="Scrap Iron Shiv">
+	<property name="Extends" value="meleeBoneShiv"/>
+	<property name="CustomIcon" value="meleeBoneShiv"/>
+	<property name="CustomIconTint" value="7C756E"/>
+	<property name="TintColor" value="230,105,32" />
+	<property name="Material" value="Mmetal"/>
+	<property name="RepairTools" value="resourceScrapIron"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="EntityDamage" operation="base_set" value="8"/> 
+		<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="52"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="10" tags="primary"/>
+	</effect_group>
+	<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.1" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.1" tags="secondary"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="16" tags="secondary"/> 
+	</effect_group>
+	<property name="Group" value="Tools/Traps,Basics"/>
+	<property name="DescriptionKey" value="Slightly better than the bone shiv for skinning animals. Not as good as an iron knife."/>
+</item>
+
+<item name="Scrap Iron Axe">
+	<property name="Extends" value="meleeToolFireaxeIron" />
+	<property name="CustomIcon" value="meleeToolFireaxeIron" />
+	<property name="CustomIconTint" value="E66920" />
+	<property name="TintColor" value="230,105,32" />
+	<property name="Material" value="Mmetal"/>
+	<property name="RepairTools" value="resourceScrapIron"/>
+	<property name="EconomicValue" value="36"/>
+	<property name="SellableToTrader" value="false"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="EntityDamage" operation="base_set" value="12"/> 
+		<passive_effect name="BlockDamage" operation="base_set" value="23"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="50"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="20" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="100,450" tier="1,6"/>
+	</effect_group>
+	<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.2" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.5" tags="secondary"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="29" tags="secondary"/>
+	</effect_group>
+	<property name="Group" value="Tools/Traps,Basics"/>
+	<property name="DescriptionKey" value="Slightly better than the stone axe for chopping wood. Not as good as a real iron fireaxe."/>
+</item>
+
+<item name="Scrap Iron Pickaxe">
+	<property name="Extends" value="meleeToolPickaxeIron" />
+	<property name="CustomIcon" value="meleeToolPickaxeIron" />
+	<property name="CustomIconTint" value="E66920" />
+	<property name="TintColor" value="230,105,32" />
+	<property name="Material" value="Mmetal"/>
+	<property name="RepairTools" value="resourceScrapIron"/>
+	<property name="EconomicValue" value="36"/>
+	<property name="SellableToTrader" value="false"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="EntityDamage" operation="base_set" value="9"/> 
+		<passive_effect name="BlockDamage" operation="base_set" value="11"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/> <!-- A16 1 -->
+		<passive_effect name="StaminaLoss" operation="base_set" value="17" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="100,450" tier="1,6"/>
+	</effect_group>
+	<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.1" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.5" tags="secondary"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="23" tags="secondary"/>
+	</effect_group>
+	<property name="Group" value="Tools/Traps,Basics"/>
+	<property name="DescriptionKey" value="Slightly better than the stone axe for mining. Not as good as a real iron pickaxe."/>
+</item>
+
+<item name="Scrap Iron Shovel">
+	<property name="Extends" value="meleeToolShovelStone" />
+	<property name="CustomIcon" value="meleeToolShovelStone" />
+	<property name="CustomIconTint" value="E66920" />
+	<property name="TintColor" value="230,105,32" />
+	<property name="Material" value="Mmetal"/>
+	<property name="RepairTools" value="resourceScrapIron"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="EntityDamage" operation="base_set" value="13"/> 
+		<passive_effect name="BlockDamage" operation="base_set" value="16"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="42"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="17" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="100,450" tier="1,6"/>
+	</effect_group>
+	<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.2" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.5" tags="secondary"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="26" tags="secondary"/>
+	</effect_group>
+	<property name="Group" value="Tools/Traps,Basics"/>
+	<property name="DescriptionKey" value="Slightly better than the stone shovel for digging. Not as good as a real iron shovel."/>
+</item>
+<!-- End Scrap Iron Tools -->
+
+	</append>
+</configs>
+
+
+

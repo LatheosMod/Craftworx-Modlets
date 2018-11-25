@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Craftworx Scrap Iron Tools" />
+		<Description value="Adds items and recipes for scrap iron shiv, axe, pickaxe, and shovel." />
+		<Author value="Latheos (Craftworx)" />
+		<Version value=".1b" />
+	</ModInfo>
+</xml>

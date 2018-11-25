@@ -1,0 +1,30 @@
+<configs>
+    <append xpath="/recipes">
+	
+<!-- Scrap Iron Tools -->
+<recipe name="Scrap Iron Axe" count="1">
+	<ingredient name="resourceScrapIron" count="50"/>
+	<ingredient name="resourceYuccaFibers" count="5"/>
+	<ingredient name="resourceWood" count="2"/>
+</recipe>
+
+<recipe name="Scrap Iron Pickaxe" count="1">
+	<ingredient name="resourceScrapIron" count="80"/>
+	<ingredient name="resourceYuccaFibers" count="5"/>
+	<ingredient name="resourceWood" count="3"/>
+</recipe>
+
+<recipe name="Scrap Iron Shovel" count="1">
+	<ingredient name="resourceScrapIron" count="65"/>
+	<ingredient name="resourceYuccaFibers" count="5"/>
+	<ingredient name="resourceWood" count="3"/>
+</recipe>
+
+<recipe name="Scrap Iron Shiv" count="1">
+	<ingredient name="resourceScrapIron" count="8"/>
+	<ingredient name="resourceYuccaFibers" count="5"/>
+</recipe>
+<!-- End Scrap Iron Tools -->
+		
+    </append>
+</configs>
