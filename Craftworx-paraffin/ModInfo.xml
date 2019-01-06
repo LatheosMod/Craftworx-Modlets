@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Craftworx resourceParaffin" />
+		<Description value="Adds the resource Paraffin to items and recipes, which is a concentrated fuel for forges, campfires, and chemistry stations." />
+		<Author value="Latheos" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>

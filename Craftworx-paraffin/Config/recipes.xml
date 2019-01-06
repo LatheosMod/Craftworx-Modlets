@@ -1,0 +1,17 @@
+<craftworx>
+
+	<append xpath="/recipes">
+	
+		<recipe name="resourceParaffin" count="1" craft_area="chemistryStation" >
+			<ingredient name="resourceTallow" count="1"/>
+			<ingredient name="resourceOilShale" count="3"/>
+		</recipe>
+	
+		<recipe name="resourceParaffin" count="1" craft_area="campfire" craft_tool="toolBeaker" >
+			<ingredient name="resourceTallow" count="3"/>
+			<ingredient name="resourceOilShale" count="6"/>
+		</recipe>
+	
+	</append>
+	
+</craftworx>

@@ -1,0 +1,21 @@
+<craftworx>
+
+	<append xpath="/items">
+	
+		<item name="resourceParaffin">
+			<property name="Meshfile" value="Items/Misc/sackPrefab" />
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+			<property name="Material" value="MresourceOil"/>
+			<property name="HoldType" value="45" />
+			<property name="Stacknumber" value="500" /> 
+			<property name="FuelValue" value="600" />
+			<property name="EconomicValue" value="80" />
+			<property name="EconomicBundleSize" value="5"/>
+			<property name="Group" value="Resources" />
+			<property name="DescriptionKey" value="resourceParaffinDesc" />
+			<property name="CraftingIngredientTime" value="1"/>
+		</item>
+
+	</append>
+
+</craftworx>
